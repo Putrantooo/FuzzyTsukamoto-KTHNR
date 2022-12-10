@@ -1,0 +1,91 @@
+/*	
+2 css yang akan di buat
+
+untuk dekstop dan mobile secara umum
+*/
+#wrapper
+{
+	
+	background-image:url('kemasan.jpg') ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 25px; 
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-default
+{
+	background:linear-gradient(#00FFFF, #7FFF00) ;
+	background-size: 400% 400%;
+	position: relative;
+	animation: change 10s ease-in-out infinite;
+	border-color:#EE7752;
+	padding: 10px;
+	min-height: 10px;
+}
+@keyframes change{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+	}
+.navbar-default .navbar-brand
+{
+	color: black;
+}
+.navbar-side {
+	background: linear-gradient(#00FFFF, #7FFF00);
+	
+	position: relative;
+	animation: change 10s ease-in-out infinite; 
+}
+.navbar-side ul li{
+	border-bottom: 1px solid #FFF8DC
+}
+.navbar-side ul li:hover a
+{
+	color: black;
+}
+.navbar-side ul li a{
+	color: black;
+}
+.table-bordered
+{
+	background: #00FFFF;
+	border-color: black;
+}
+.border{
+	border-color: black;
+}
+/* #page-wrapper{
+	padding: 15px;
+	background:#a9aaac;
+} */
+#page-inner{
+	background:rgb(255, 254, 254);
+	padding: 15px; 
+	min-height: 535px;
+}
+/*spesifik css dekstop*/
+@media(min-width: 768px)
+{
+	#page-wrapper{
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1000px;
+	}
+	.navbar-side{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1000px;
+	}
+}

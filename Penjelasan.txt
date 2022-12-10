@@ -1,0 +1,10 @@
+Source Code Web Sistem Pendukung Keputusan Produksi Barang Fuzzy Tsukamoto 
+
+Langkah Pemasangan:
+1. Buat Database di phpmyadmin 
+2. import tsukamoto.sql
+3. Letakan folder KTHNR di folder htdocs kalian
+4. akses dengan https://localhost/KTHNR
+5. login dengan username: Pak maman dan password: admin1234
+
+Terimakasih dan semoga membantu
